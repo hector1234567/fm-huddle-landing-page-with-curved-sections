@@ -249,8 +249,13 @@ footer .newsletter__error {
   margin-top: 0.2rem;
   display: none;
 }
+@media screen and (max-width: 915px) {
+  footer .newsletter__error {
+    text-align: right;
+  }
+}
 footer .newsletter form:invalid ~ .newsletter__error {
-  display: inline-block;
+  display: block;
 }
 
 .button {
