@@ -41,6 +41,14 @@ $Bold: 700;
 
 html {
   font-size: 62.5%;
+
+  @media screen and (max-width: 1264px) {
+    font-size: 55%;
+  }
+
+  @media screen and (max-width: 1097px) {
+    font-size: 45%;
+  }
 }
 
 body {

@@ -5,6 +5,11 @@ nav {
   padding: 7.9rem 8rem;
   margin-bottom: 14.7rem;
 
+  @media screen and (max-width: 915px) {
+    padding: 24px;
+    margin-bottom: 112px;
+  }
+
   .logo img {
     width: 24rem;
   }
