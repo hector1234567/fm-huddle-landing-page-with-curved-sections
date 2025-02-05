@@ -322,7 +322,7 @@ footer .newsletter form:invalid ~ .newsletter__error {
 }
 .article:nth-child(2) {
   flex-direction: row-reverse;
-  padding: 11rem 0;
+  padding: 11.5rem 0;
 }
 .article:nth-child(3) {
   background-image: url(/images/bg-section-top-desktop-2.svg), url(/images/bg-section-bottom-desktop-2.svg), linear-gradient(#fff 0%, #fff 20%, hsl(207, 100%, 98%) 20%, hsl(207, 100%, 98%) 80%, #fff 80%);
