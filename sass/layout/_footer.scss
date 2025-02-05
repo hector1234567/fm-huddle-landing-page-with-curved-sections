@@ -55,9 +55,13 @@ footer {
       gap: 2.4rem;
       margin-top: 8rem;
 
-      img {
+      svg {
         fill: $White;
-        width: 3.2rem;
+        transition: all 0.2s ease;
+
+        &:hover {
+          fill: $Blue;
+        }
       }
     }
   }
@@ -87,6 +91,11 @@ footer {
         border-radius: 0.5rem;
         border: none;
         padding-left: 2rem;
+        outline: none;
+
+        &:invalid {
+          box-shadow: inset 0 0 0 0.2rem $Light-Red;
+        }
       }
 
       button {
@@ -100,7 +109,25 @@ footer {
         border-radius: 0.5rem;
         border: none;
         cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $Light-Pink;
+        }
       }
+    }
+
+    &__error {
+      font-size: 1.2rem;
+      font-weight: $Semibold;
+      line-height: 2.4rem;
+      color: $Light-Red;
+      margin-top: 0.2rem;
+      display: none;
+    }
+
+    form:invalid ~ .newsletter__error {
+      display: inline-block;
     }
   }
 }

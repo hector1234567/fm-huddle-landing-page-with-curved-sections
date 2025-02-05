@@ -1,6 +1,7 @@
 .button {
   text-decoration: none;
   font-family: inherit;
+  transition: all 0.3s ease;
 
   &--primary {
     font-size: 2rem;
@@ -21,5 +22,9 @@
     box-shadow: $Pink-Shadow;
     padding: 0.9rem 3rem;
     background-color: $White;
+  }
+
+  &:hover {
+    background-color: $Light-Pink;
   }
 }

@@ -124,9 +124,12 @@ footer .links__social {
   gap: 2.4rem;
   margin-top: 8rem;
 }
-footer .links__social img {
+footer .links__social svg {
   fill: #fff;
-  width: 3.2rem;
+  transition: all 0.2s ease;
+}
+footer .links__social svg:hover {
+  fill: hsl(192, 100%, 49%);
 }
 footer .newsletter h4 {
   font-size: 2.4rem;
@@ -149,6 +152,10 @@ footer .newsletter form input {
   border-radius: 0.5rem;
   border: none;
   padding-left: 2rem;
+  outline: none;
+}
+footer .newsletter form input:invalid {
+  box-shadow: inset 0 0 0 0.2rem hsl(0, 100%, 63%);
 }
 footer .newsletter form button {
   font-family: inherit;
@@ -161,11 +168,27 @@ footer .newsletter form button {
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+footer .newsletter form button:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+footer .newsletter__error {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: hsl(0, 100%, 63%);
+  margin-top: 0.2rem;
+  display: none;
+}
+footer .newsletter form:invalid ~ .newsletter__error {
+  display: inline-block;
 }
 
 .button {
   text-decoration: none;
   font-family: inherit;
+  transition: all 0.3s ease;
 }
 .button--primary {
   font-size: 2rem;
@@ -185,6 +208,9 @@ footer .newsletter form button {
   box-shadow: 0 0 0.9rem 0 rgba(255, 82, 193, 0.2188);
   padding: 0.9rem 3rem;
   background-color: #fff;
+}
+.button:hover {
+  background-color: hsl(321, 100%, 78%);
 }
 
 .number__value {
