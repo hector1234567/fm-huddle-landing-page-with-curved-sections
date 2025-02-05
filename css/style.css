@@ -77,10 +77,10 @@ nav .logo img {
   margin-bottom: 4.9rem;
 }
 .header .button {
-  margin-bottom: 12rem;
+  margin-bottom: 11rem;
 }
 .header .screen-mockups img {
-  width: 101.6rem;
+  width: 102rem;
 }
 @media screen and (max-width: 915px) {
   .header .screen-mockups img {
@@ -322,6 +322,7 @@ footer .newsletter form:invalid ~ .newsletter__error {
 }
 .article:nth-child(2) {
   flex-direction: row-reverse;
+  padding: 10rem 0;
 }
 .article:nth-child(3) {
   background-image: url(/images/bg-section-top-desktop-2.svg), url(/images/bg-section-bottom-desktop-2.svg), linear-gradient(#fff 0%, #fff 20%, hsl(207, 100%, 98%) 20%, hsl(207, 100%, 98%) 80%, #fff 80%);
