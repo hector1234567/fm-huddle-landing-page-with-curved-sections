@@ -351,8 +351,25 @@ footer .newsletter form:invalid ~ .newsletter__error {
   color: hsl(192, 100%, 9%);
   max-width: 52rem;
 }
+@media screen and (max-width: 915px) {
+  .article__text {
+    width: 100dvw;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .article__illustration img {
   width: 56rem;
+}
+@media screen and (max-width: 915px) {
+  .article__illustration img {
+    max-width: 56rem;
+    width: 100dvw;
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

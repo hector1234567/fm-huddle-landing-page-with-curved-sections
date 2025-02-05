@@ -88,9 +88,24 @@
       color: $Very-Dark-Cyan;
       max-width: 52rem;
     }
+
+    @media screen and (max-width: 915px) {
+      width: 100dvw;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
   }
 
   &__illustration img {
     width: 56rem;
+
+    @media screen and (max-width: 915px) {
+      max-width: 56rem;
+      width: 100dvw;
+      padding: 20px;
+    }
   }
 }
