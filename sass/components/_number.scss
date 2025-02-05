@@ -1,0 +1,16 @@
+.number {
+  &__value {
+    font-size: 9.6rem;
+    color: $Very-Dark-Cyan;
+    font-weight: $Bold;
+    line-height: 14.4rem;
+  }
+
+  &__text {
+    font-size: 2.4rem;
+    font-weight: $Regular;
+    line-height: 3.6rem;
+    color: $Dark-Grey;
+    text-align: center;
+  }
+}

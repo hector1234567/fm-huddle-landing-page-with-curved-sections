@@ -1,1 +1,12 @@
 @import "base/base";
+
+@import "layout/nav";
+@import "layout/header";
+@import "layout/numbers";
+@import "layout/articles";
+@import "layout/ready";
+@import "layout/footer";
+
+@import "components/button";
+@import "components/number";
+@import "components/article";

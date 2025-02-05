@@ -1,0 +1,64 @@
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding: 11.616rem 0;
+
+  &:nth-child(1) {
+    background-image: url(/images/bg-section-top-desktop-1.svg),
+      url(/images/bg-section-bottom-desktop-1.svg),
+      linear-gradient(
+        $White 0%,
+        $White 20%,
+        $Very-Pale-Blue 20%,
+        $Very-Pale-Blue 80%,
+        $White 80%
+      );
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 20%, 100% 20%, auto;
+  }
+
+  &:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  &:nth-child(3) {
+    background-image: url(/images/bg-section-top-desktop-2.svg),
+      url(/images/bg-section-bottom-desktop-2.svg),
+      linear-gradient(
+        $White 0%,
+        $White 20%,
+        $Very-Pale-Blue 20%,
+        $Very-Pale-Blue 80%,
+        $White 80%
+      );
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 20%, 100% 20%, auto;
+  }
+
+  &__text {
+    h2 {
+      font-family: $Font-Family-Heading;
+      font-size: 4rem;
+      font-weight: $Bold;
+      line-height: 6rem;
+      color: $Very-Dark-Cyan;
+      margin-bottom: 2.6rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: $Regular;
+      line-height: 2.4rem;
+      color: $Very-Dark-Cyan;
+      max-width: 52rem;
+    }
+  }
+
+  &__illustration img {
+    width: 56rem;
+  }
+}

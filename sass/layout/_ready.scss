@@ -1,0 +1,15 @@
+.ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.2rem;
+  margin-bottom: 17.8rem;
+
+  h3 {
+    font-size: 4rem;
+    font-weight: $Bold;
+    line-height: 6rem;
+    color: $Very-Dark-Cyan;
+    text-align: center;
+  }
+}

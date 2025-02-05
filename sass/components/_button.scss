@@ -1,0 +1,25 @@
+.button {
+  text-decoration: none;
+  font-family: inherit;
+
+  &--primary {
+    font-size: 2rem;
+    font-weight: $Bold;
+    color: $White;
+    background-color: $Pink;
+    padding: 2.5rem 10rem;
+    border-radius: 8rem;
+    box-shadow: $Black-Shadow;
+  }
+
+  &--secondary {
+    font-size: 1.6rem;
+    font-weight: $Regular;
+    color: $Pink;
+    border: 0.1rem solid $Pink;
+    border-radius: 4rem;
+    box-shadow: $Pink-Shadow;
+    padding: 0.9rem 3rem;
+    background-color: $White;
+  }
+}
