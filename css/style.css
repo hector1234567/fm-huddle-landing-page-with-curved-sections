@@ -306,6 +306,7 @@ footer .newsletter form:invalid ~ .newsletter__error {
   .article {
     flex-direction: column-reverse !important;
     height: 763px;
+    gap: 5rem;
   }
 }
 .article:nth-child(1) {
